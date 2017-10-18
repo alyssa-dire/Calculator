@@ -1,0 +1,27 @@
+body{
+	background-image: url("cimg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container{
+	text-align: center;
+	margin: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+	input[type=button], input[type=reset]{
+		border: 1px solid black;
+		border-radius: 50%;
+   		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    	font-size: 15px;
+    	background-color: darkgrey; 
+    	color: black;
+	}
